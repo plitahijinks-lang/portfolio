@@ -1,0 +1,40 @@
+.hero{
+    width:100%;
+    height:400px;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border-radius: 15px;
+}
+.hero >img{
+    width:250px;
+    height:250px;
+
+    transition: transform 0.3s;
+}
+.hero >img:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px 5px white;
+}
+.matn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.matn >button{
+    width:100px;
+    height:50px;
+    border: none;
+    border-radius: 15px;
+    background-color: brown;
+    color: aqua;
+    transition: transform 0.3s;
+}
+.matn >button:hover{
+    transform: scale(1.1);
+    
+}
